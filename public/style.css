@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f17;
+  font-family: Arial;
+}
+
+.card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 25px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+  position: relative;
+}
+
+#avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.status-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 115px;
+  right: 125px;
+}
+
+.online {
+  background: #43b581;
+  box-shadow: 0 0 15px #43b581;
+}
+
+.idle {
+  background: #faa61a;
+  box-shadow: 0 0 15px #faa61a;
+}
+
+.dnd {
+  background: #f04747;
+  box-shadow: 0 0 15px #f04747;
+}
+
+.offline {
+  background: #747f8d;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: #aaa;
+}
